@@ -17,11 +17,16 @@
     margin-bottom: 10px;
 }
 
-.cf_plugin .customer-feedback h3 {
+.wp-widget-cfplugin .customer-feedback {
+    border: 2px solid rgb(39, 104, 104);
+    padding: 10px;
+}
+
+.cf_plugin .customer-feedback h3, .wp-widget-cfplugin .customer-feedback h3 {
     margin-top: 0;
 }
 
-.cf_plugin .customer-feedback img {
+.cf_plugin .customer-feedback img, .wp-widget-cfplugin .customer-feedback img {
     max-width: 100%;
     height: auto;
 }

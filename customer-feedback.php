@@ -8,6 +8,7 @@ Author: Jonna Satta
 
 require_once('includes/customer-feedback-post-type.php');
 require_once('includes/cfplugin-shortcodes.php');
+require_once('includes/cf_widget.php');
  
 function cfplugin_setup_menu() {
     add_menu_page('Customer Feedback', 'Feedback', 'manage_options', 'customer-feedback-plugin', 'cfplugin_display_admin_page');
