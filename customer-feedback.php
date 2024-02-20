@@ -20,4 +20,10 @@ function cfplugin_display_admin_page() {
 }
 
 add_action('admin_menu', 'cfplugin_setup_menu');
+
+function cfplugin_assets() {
+    wp_enqueue_style('cfplugin-css', plugin_dir_url(__FILE__) . 'css/cfplugin.css');
+}
+
+add_action('wp_enqueue_scripts', 'cfplugin_assets');
 ?>

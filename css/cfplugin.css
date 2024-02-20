@@ -1,0 +1,27 @@
+.cf_plugin, .cf_plugin * {
+    box-sizing: border-box;
+}
+
+.cf_plugin {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.cf_plugin .customer-feedback {
+    border: 2px solid rgb(39, 104, 104);
+    padding: 10px;
+    width: 32%;
+    margin-bottom: 10px;
+}
+
+.cf_plugin .customer-feedback h3 {
+    margin-top: 0;
+}
+
+.cf_plugin .customer-feedback img {
+    max-width: 100%;
+    height: auto;
+}
